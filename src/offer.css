@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+.head-offer {
+    height: 50vh;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e7e7e7;
+    flex-wrap: wrap;
+}
+p.head-offer-text {
+    float: left;
+    width: 60%;
+    margin: 50px 50px;
+    font-size: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.path-to-pricing {
+    text-align: left;
+    margin-top: 20px; 
+    width: fit-content;
+}
+.path-to-pricing a {
+    text-decoration: none;
+    color: black;
+}
+.path-to-pricing button:hover {
+    background-color: burlywood;
+}
+.path-to-pricing button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color:beige;
+    list-style: none;
+}
+.icon-price {
+    font-size: 15px;
+}
+.about-offer {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+/*
+.right-image {
+    float: right;
+    width: 25%;
+}
+.about-offer img {
+    margin-bottom: 30px;
+    margin-left: 20%;
+}
+*/
+.main-offer {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.collapsible .content {
+    padding: 6px;
+    background-color: #eeeeee;
+}
+.collapsible .header {
+    background-color: #dddddd;
+    padding: 6px;
+    cursor: pointer;
+}
+.collapse {
+    color:black;
+}
+.header {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.item {
+    text-align: center;
+    color: #dddddd;
+    width: 40%;
+    margin-left: 30%;
+    padding: 10px;
+    background: url(./images/jasny.png) no-repeat center;
+}
+.item + .item {
+    margin-top: 10px;
+}
+h2.head {
+    text-align: center;
+}
+h2.item-header {
+    font-size: 20px;
+}
+.body {
+    margin-top: 50px;
+}
+.services {
+    text-align: center;
+    height: 50vw;
+    width: 99vw;
+}
+.services-background {
+    position: relative;
+}
+.services img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+}
+.services-head {
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+}
+.services-item1 {
+    margin-top: 8%;
+    position: absolute;
+    left: 15%;
+}
+.services-item2 {
+    margin-top: 25%;
+    position: absolute;
+    left: 18%;
+}
+.services-item3 {
+    margin-top: 7%;
+    position: absolute;
+    left: 45%;
+}
+.services-item4 {
+    margin-top: 24%;
+    position: absolute;
+    left: 45%;
+}
+
+.service-icon {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 80px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    color: rgb(56, 115, 224);
+}
+.service-icon svg {
+    vertical-align: middle;
+}
+p.service-desc {
+    font-size: 20px;
+    color: rgb(182, 180, 180);
+}
+
+
+/* @media (max-width: 1600px) {
+    h1 {
+        margin-bottom: 0;
+    }
+
+    .about-offer img {
+        width: 350px;
+        height: 200px;
+        margin-right: 150px;
+    }
+    .head-offer {
+        height: 300px;
+    }
+    p.head-offer-text {
+        font-size: 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .path-to-pricing button {
+        width: 100px;
+        height: 40px;
+    }
+    h2.head {
+        margin-top: 50px;
+    }
+
+}
+*/
+
+
+
+@media (max-width: 1600px) {
+    h2.head {
+        margin-top: 150px;
+    }
+    .head-offer {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .main-offer {
+        margin-top: 5%;
+    }
+    .service-icon {
+        font-size: 40px;
+        width: 60px;
+        height: 60px;
+        line-height: 50px;
+    }
+    p.service-desc {
+        font-size: 13px;
+    }
+   
+}
+
+@media (max-width: 1100px) {
+    .item {
+        width: 60%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    h1 {
+        margin-bottom: 0;
+    }
+    .main-offer {
+        margin-top: 20%;
+    }
+    .about-offer {
+        width: 100%;
+    }
+    .right-image {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-offer img {
+        display: block;
+        margin: 20px auto;
+    }
+    .head-offer {
+        height: 450px;
+        text-align: center;
+    }
+    p.head-offer-text {
+        font-size: 15px;
+        margin: 0;
+        margin-left: 5%;
+        text-align: justify;
+        display: flexbox;
+        width: 90%
+    }
+    .path-to-pricing {
+        margin: 20px auto;
+    }
+    .path-to-pricing button {
+        width: 100px;
+        height: 40px;
+    }
+    h2.head {
+        margin: 0 auto;
+    }
+    h2.services-tittle {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .service-icon {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 20px;
+    }
+    p.service-desc {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .services-item1, .services-item2, .services-item3, .services-item4 {
+        position: relative;
+        display: block;
+        height: max-content;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        left: 30px;
+        top: 40px;
+    } 
+}    
+
+
+@media (max-width: 575px) {
+
+    .service-icon {
+        font-size: 15px;
+        width: 25px;
+        height: 25px;
+        line-height: 15px;
+    }
+    p.service-desc {
+        font-size: 8px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .services-item1, .services-item2, .services-item3, .services-item4 {
+        position: relative;
+        display: inline;
+        height: max-content;
+        width: 95%;
+        padding: 0;
+        margin: 0;
+        left: -50px;
+        top: 21px;
+    } 
+}
+
+@media (max-width: 470px) {
+    .right-image {
+        width: 100%;
+        margin: 0;
+    }
+    .about-offer img {
+        margin: 0 auto;
+        width: 300px;
+        height: 190px;
+    }
+
+    h2.item-header {
+        font-size: 15px;
+    }
+    .service-icon {
+        display: none;
+    }
+    .services-item1, .services-item2, .services-item3, .services-item4 {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 30px;
+        width: max-content;
+    }
+    p.service-desc {
+        font-size: 10px;
+        width: max-content;
+        margin-top: 8px;
+        margin-left: 30%;
+        border-bottom: 2px solid white;
+    }
+}
+@media (max-width: 330px) {
+    .right-image {
+        display: none;
+    }
+    .main-offer {
+        margin-top: 0;
+    }
+}

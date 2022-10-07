@@ -1,0 +1,14 @@
+.header {
+    border-radius: 10%;
+}
+p.show {
+    font-size: 20px;
+    text-align: justify;
+    padding: .5rem;
+}
+
+@media (max-width: 450px) {
+    p.show {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,148 @@
+.about {
+    background-color: #e9dddd;
+}
+h1 {
+    padding: 1rem;
+}
+p.icon {
+    font-size: 3rem;
+    color: rgb(56, 115, 224);
+    margin: 0 auto;
+    padding: 5px;
+}
+p.us-text {
+    width: 30%;
+    margin: 1% auto;
+    padding: 2px;
+    height: 7vh;
+}
+section.lorem {
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 10px;
+    background: #cccfcc;
+    width: 100%;
+}
+p.lorem-text {
+    width: 65%;
+    margin: 0 auto;
+    padding: 1%;
+    font-size: 20px;
+    line-height: 1.7rem;
+}
+section.lorem h1 {
+    text-align: center;
+    padding-top: 1%;
+}
+section.big-image {
+    width: 100%;
+}
+section.us {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.right-images {
+    width: 45%;
+    margin: 20px auto
+}
+b {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: .1rem;
+}
+.allcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 13px;
+}
+.cards {
+    margin: 15px;
+}
+
+/*
+.allcards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards {
+    display: inline-table;
+}
+.cards + .cards {
+    margin-left: 20px;
+}
+*/
+
+
+
+
+@media (max-width: 1500px) {
+
+    .right-images {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    h1 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 1150px) {
+   
+    .right-images {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    p.icon {
+        padding: 1rem;
+    }
+    footer {
+        height: fit-content;
+    }
+}
+
+@media (max-width: 658px) {
+   
+    .right-images {
+        display: none;
+    }
+}
+
+@media (max-width: 541px) {
+   
+    p.icon {
+        padding: 1rem;
+    }
+    .allcards {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .cards + .cards {
+        margin-top: 1rem;
+        margin-left: 0;
+        padding: 2px;
+    }
+    footer {
+        height: fit-content;
+    }
+}
+@media (max-width: 425px) {
+   
+    p.icon {
+        padding: 1rem;
+    }
+    .allcards {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .cards + .cards {
+        margin-top: 1rem;
+        margin-left: 0;
+        padding: 2px;
+    }
+    footer {
+        height: fit-content;
+    }
+}
